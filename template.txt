@@ -1,11 +1,8 @@
-#include <iostream>
-
-
 #define P 998244353
 #define mod(X) X % P
 
 template< typename type>
-class mdt // mod done data type
+class mdt // mdt= mod data type
 {
 
 public:
@@ -129,7 +126,7 @@ private:
 
 int main()
 {
+//use mdt data type this way !!
 	mdt<int> a = 5, b = 10;
 	std::cout << a * b;
-
 }
